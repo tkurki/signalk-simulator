@@ -45,7 +45,7 @@ module.exports = function(app) {
           }]
         }]
         })
-      }, deltaSpec.interval))
+      }, deltaSpec.interval * 1000))
     })
     debug("Started")
   };
